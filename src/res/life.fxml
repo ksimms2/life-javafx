@@ -57,7 +57,7 @@
     fx:id="densitySlider"
     min="0"
     max="100"
-    value="25"
+    value="${densitySliderValue}"
     GridPane.rowIndex="1"
     GridPane.columnIndex="1">
     <tooltip>
