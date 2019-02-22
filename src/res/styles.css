@@ -6,6 +6,11 @@ GridPane {
   -fx-spacing: 10px;
   -fx-hgap: 10px;
   -fx-vgap: 10px;
+  -fx-background-color: #66a5cc;
+  -fx-background: rgba(0, 0, 0, 0.82);
+  -fx-background-radius: 10 10 10 10;
+
+
 }
 
 #viewScroller {
@@ -16,10 +21,36 @@ GridPane {
   -fx-min-height: 600px;
   -fx-max-height: 600px;
   -fx-pannable: true;
+  -fx-background: #e9f5f2;
 }
 
 #densitySlider {
   -fx-major-tick-unit: 1;
   -fx-minor-tick-count: 0;
   -fx-snap-to-ticks: true;
+  -fx-show-tick-labels: false;
+  -fx-show-tick-marks: false;
+  -fx-background-color: #646267;
+
+}
+
+
+
+Text {
+  -fx-font-style: italic;
+
+}
+#generationDisplay {
+  -fx-font-weight: bold;
+}
+
+#populationDisplay {
+  -fx-font-weight: bold;
+}
+#toggleFit {
+  -fx-background-color: #5b5b5b;
+
+}
+#toggleRun{
+  -fx-padding: 15;
 }

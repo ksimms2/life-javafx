@@ -12,7 +12,7 @@ public class WorldView extends Canvas {
     double cellSize = Math.min(
         (double) getWidth() / terrain[0].length, (double) getHeight() / terrain.length);
     context.clearRect(0,0,getWidth(), getHeight());
-    context.setFill(Color.GREEN);
+    context.setFill(Color.BLACK);
     for (int row = 0; row <terrain.length; row++){
       for(int col = 0; col < terrain[row].length; col++){
         if (terrain[row][col] == Cell.ALIVE){
