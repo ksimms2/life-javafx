@@ -6,7 +6,6 @@ GridPane {
   -fx-spacing: 10px;
   -fx-hgap: 10px;
   -fx-vgap: 10px;
-
 }
 
 #viewScroller {
@@ -17,7 +16,6 @@ GridPane {
   -fx-min-height: 600px;
   -fx-max-height: 600px;
   -fx-pannable: true;
-
 }
 
 #densitySlider {
